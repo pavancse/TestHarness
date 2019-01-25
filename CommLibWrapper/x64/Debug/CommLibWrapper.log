@@ -1,0 +1,10 @@
+﻿  CommLibWrapper.cpp
+     Creating library Z:\CSE687_OOD\projects\Project4\TestHarness\x64\Debug\CommLibWrapper.lib and object Z:\CSE687_OOD\projects\Project4\TestHarness\x64\Debug\CommLibWrapper.exp
+CommLibWrapper.obj : error LNK2019: unresolved external symbol "public: __cdecl MsgPassingCommunication::Comm::Comm(struct MsgPassingCommunication::EndPoint,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??0Comm@MsgPassingCommunication@@QEAA@UEndPoint@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "public: static class MsgPassingCommunication::IComm * __cdecl MsgPassingCommunication::IComm::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned __int64)" (?create@IComm@MsgPassingCommunication@@SAPEAV12@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_K@Z)
+Z:\CSE687_OOD\projects\Project4\TestHarness\bin\opt\Debug\CodeUtilities.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Z:\CSE687_OOD\projects\Project4\TestHarness\bin\opt\Debug\StringUtilities.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Z:\CSE687_OOD\projects\Project4\TestHarness\bin\opt\Debug\Message.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Z:\CSE687_OOD\projects\Project4\TestHarness\bin\opt\Debug\Sockets.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Z:\CSE687_OOD\projects\Project4\TestHarness\bin\opt\Debug\FileSystem.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Z:\CSE687_OOD\projects\Project4\TestHarness\bin\opt\Debug\MsgPassingComm.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+Z:\CSE687_OOD\projects\Project4\TestHarness\x64\Debug\CommLibWrapper.dll : fatal error LNK1120: 1 unresolved externals
